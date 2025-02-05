@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web Personnelle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenue sur ma page web !</h1>
+
+
+        <!-- Affichage de la date -->
+        <div id="date-container">
+            <h3>Aujourd'hui, nous sommes :</h3>
+            <p id="current-date"></p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Section "À propos de moi" -->
+        <section id="about-me">
+            <h2>À propos de moi</h2>
+            <img src="images/WhatsApp Image 2025-02-04 at 10.06.06.jpeg" alt="Photo de profil" class="profile-pic">
+            <p>Je m'appelle SILUE SININFOLO HERVE. Je suis passionné(e) par cette formation en developpement web lancer
+                par simplon.ci et j'espere etre retenu a la fin du processus de selection. Dans mon temps libre, j'aime
+                explorer youtube pour me former car pour moi aujourd'hui on peu apprendre beaucoup sur le net il suffit
+                d'etre passionner !.</p>
+        </section>
+
+        <!-- Section "Ma passion" -->
+        <section id="my-passion">
+            <h2>Ma passion</h2>
+            <p>Ma plus grande passion est le developpement web , en effet tout ce qui concerne le code informatique.
+                Cela me fascine parce que c'est un domaine vraiment challengeant et en plein essort l'avenir du pays y
+                en depant il y a tellement de choses a digitaliser en cote d'ivoire .</p>
+        </section>
+
+        <!-- Bouton interactif -->
+        <button id="message-button">Cliquez-moi !</button>
+        <p id="message"></p>
+
+        <section id="game-section">
+            <h2>Pour eviter de que tu t'ennuie Amuses-toi un peu </h2>
+
+            <!-- Explication du jeu -->
+            <div id="game-explanation">
+                <p>
+                    Bienvenue dans ce petit jeu amusant ! Voici comment ça fonctionne :
+                </p>
+                <ul>
+                    <li>Je pense à un nombre entre 1 et 100.</li>
+                    <li>Ton objectif est de deviner ce nombre en entrant des propositions dans le champ ci-dessous.</li>
+                    <li>À chaque essai, je te donnerai un indice : "Plus grand" ou "Plus petit".</li>
+                    <li>Lorsque tu trouveras le bon nombre, je t'afficherai un message de félicitations avec le nombre
+                        d'essais que tu as effectués.</li>
+                    <li>Bonne chance et amuse-toi bien !</li>
+                </ul>
+            </div>
+
+            <!-- Formulaire pour entrer une réponse -->
+            <div class="game-form">
+                <input type="number" id="guess-input" placeholder="Entrez un nombre" min="1" max="100">
+                <button id="submit-guess">Valider</button>
+            </div>
+
+            <!-- Affichage des résultats -->
+            <p id="result-message"></p>
+            <button id="restart-game" style="display: none;">Rejouer</button>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="social-links">
+            <h4>vous pouvez faire un tour sur mes reseaux sociaux :</h4>
+            <ul>
+
+                <li><a href="https://github.com/Silue6476" target="_blank" class="social-link github">GitHub</a>
+                </li>
+                <li><a href="https://www.facebook.com/oubayd.elkaolaky" target="_blank"
+                        class="social-link twitter">Facebook</a></li>
+
+            </ul>
+        </div>
+        <p>&copy; 2023 SILUE HERVE</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
